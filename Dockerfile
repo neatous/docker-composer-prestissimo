@@ -1,4 +1,4 @@
-FROM php:7.4-alpine
+FROM php:8.0-alpine
 MAINTAINER Martin Venuš <martin.venus@gmail.com>
 
 RUN apk --update add git tar zlib-dev libzip-dev && \
