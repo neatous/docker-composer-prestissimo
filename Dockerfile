@@ -1,4 +1,4 @@
-FROM php:8.1-alpine
+FROM php:8.3-alpine
 MAINTAINER Martin Venuš <martin.venus@gmail.com>
 
 RUN apk --update add git openssh-client tar zlib-dev libzip-dev && \
