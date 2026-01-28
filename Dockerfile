@@ -1,5 +1,5 @@
-FROM php:8.3-alpine
-MAINTAINER Martin Venuš <martin.venus@gmail.com>
+FROM php:8.5-alpine
+LABEL maintainer="Martin Venuš <martin.venus@gmail.com>"
 
 RUN apk --update add git openssh-client tar zlib-dev libzip-dev && \
     docker-php-ext-configure zip && \
